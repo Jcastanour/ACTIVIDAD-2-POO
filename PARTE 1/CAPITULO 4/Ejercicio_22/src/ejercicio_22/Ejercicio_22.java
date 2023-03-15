@@ -1,8 +1,5 @@
 
 package ejercicio_22;
-
-//@author Juan Pablo
-
 import java.util.Scanner;
 
 public class Ejercicio_22 {
