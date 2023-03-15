@@ -9,7 +9,7 @@ public class Ejercicio_22 {
         double valor, horas, salarioMensual;
         String nombre;
        
-        System.out.println("Por favor ingrese el nombre");
+        System.out.println("Por favor ingrese el nombre:");
         nombre = input.nextLine();
        
         System.out.println("Por favor ingrese el salario(por hora) de "+ nombre);

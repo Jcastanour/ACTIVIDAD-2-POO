@@ -12,7 +12,7 @@ public static void main(String[] args) {
        
        
         for(i=0; i<3; i= i+1) {            
-            System.out.println("Ingrese valor "+(i+1));            
+            System.out.println("Ingrese valor "+(i+1)+": ");            
             vector[i] = valor.nextInt();                                                  
         }              
        

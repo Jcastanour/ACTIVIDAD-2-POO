@@ -11,7 +11,7 @@ public class Ejercicio_12 {
         
         System.out.println("¿Cual es el nombre del trabajador?");
         Scanner nom = new Scanner(System.in);
-        NOM= nom.next();
+        NOM= nom.nextLine();
         
         System.out.println("¿Cual es el numero de horas trabajadas?");
         Scanner nht = new Scanner(System.in);
@@ -34,7 +34,7 @@ public class Ejercicio_12 {
         else{
             SALARIO=NHT*VHN;
         }
-        System.out.println("EL TRABAJADOR "+NOM+" DEVENGO:$"+SALARIO);
+        System.out.println("EL TRABAJADOR "+NOM+" DEVENGO: $"+SALARIO);
         
 
     }

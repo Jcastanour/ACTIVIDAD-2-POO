@@ -30,7 +30,7 @@ public class Ejercicio_13 {
             PDES=50;
         }
         else{
-            PDES=50;
+            PDES=100;
         }
         
         VALPAG= VALCOMP-((PDES*VALCOMP)/100);
