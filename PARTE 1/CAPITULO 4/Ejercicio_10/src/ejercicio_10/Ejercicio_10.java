@@ -1,13 +1,11 @@
 package ejercicio_10;
-
 import java.util.Scanner;
-
 public class Ejercicio_10 {
 
     public static void main(String[] args) {
         int estrato;
         double patrimonio, pagmat;
-        String ni,nombre;
+        String ni, nombre;
 
         Scanner entrada = new Scanner(System.in);
 
@@ -24,7 +22,7 @@ public class Ejercicio_10 {
         if ((patrimonio > 2000000) && (estrato > 3)) {
             pagmat = pagmat + 0.03 * patrimonio;
         }
-        
+
         System.out.println("El estudiante " + nombre + " con numero de identificacion " + ni + " debe pagar $" + pagmat);
 
     }
