@@ -40,7 +40,7 @@ public class Figuras_geometricas {
         System.out.println("ingrese el valor de la altura del triangulo rectangulo: ");
         alturat = valor.nextInt();
 
-        Triangulo figura4 = new Triangulo(baset, alturat);
+        Triangulo_Rectangulo figura4 = new Triangulo_Rectangulo(baset, alturat);
         System.out.println("El area del triangulo es: " + figura4.calcularArea());
         System.out.println("El perimetro del triangulo es: " + figura4.calcularPerimetro());
 

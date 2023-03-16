@@ -1,10 +1,10 @@
 package figuras_geometricas;
 
-public class Triangulo {
+public class Triangulo_Rectangulo {
 
     int baset, alturat;
 
-    public Triangulo(int baset, int alturat) {
+    public Triangulo_Rectangulo(int baset, int alturat) {
         this.baset = baset;
         this.alturat = alturat;
     }
